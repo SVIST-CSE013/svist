@@ -61,7 +61,7 @@ const app = express()
 app.use(express.json())
 
 app.use(cors({
-  origin: "https://college-management-h1b7.onrender.com",
+  origin: "https://final-year-destructive-mern-project.vercel.app",
   methods: ['GET', 'POST', 'PUT', 'DELETE'],
   allowedHeaders: ['Content-Type', 'Authorization'],
   credentials: true
